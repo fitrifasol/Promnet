@@ -5,41 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-    <!--ini adalah block header-->
+    <!-- ini bagian header -->
     <header>
-
+        <h1>Belajar Membuat Layout dengan HTML dan CSS</h1>
     </header>
+    
+    <!-- bagian nav menu -->
+    <nav>
+        <ul>
+            <li><a href="#"> Home</a></li>
+            <li><a href="#"> About</a></li>
+            <li><a href="#"> Blog</a></li>
+            <li><a href="#"> Contact</a></li>
+        </ul>
+    </nav>
 
-    <!--ini adalah section content-->
-    <section>
-        <img src="image/7.png" alt="" style="width: 20%; margin: 20px auto; display: block;">
-        <table style="border: 1px purple solid; margin: 0px auto;">
-            <tr>
-                <td>Nama</td>
-                <td>:</td>
-                <td>Who is Mr.President?</td>
-            </tr>
+    <!-- ini adalah container with body content -->
+    <div id="container">
+        <!-- section content kiri -->
+        <section class="kiri">
+            <div class="content">
+                <h2> Judul Berita</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat consequatur voluptatibus omnis laborum in velit eveniet ullam voluptatum aperiam dolores. Architecto, rerum tenetur! Odit molestias, reiciendis perspiciatis fugiat tempore soluta.</p>
+                <button>Read Hore...</button>
+            </div>
+            <div class="content">
+                <h2> Judul Berita</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat consequatur voluptatibus omnis laborum in velit eveniet ullam voluptatum aperiam dolores. Architecto, rerum tenetur! Odit molestias, reiciendis perspiciatis fugiat tempore soluta.</p>
+                <button>Read Hore...</button>
+            </div>
+        </section>
 
-            <tr>
-                <td>Penulis</td>
-                <td>:</td>
-                <td>S.M.S, King Productions</td>
-            </tr>
+        <!-- section content kanan -->
+        <section class="kanan">
+            ini adalah content sebelah kanan
+        </section>
+    </div>
 
-            <tr>
-                <td>Terbit</td>
-                <td>:</td>
-                <td>Webtoons</td>
-            </tr>
-
-            <tr>
-                <td>Detail Informasi</td>
-                <td>:</td>
-                <td><a href="https://www.webtoons.com/id/drama/whoismrpresident/list?title_no=2668" target="_blank">Click Here!</a></td>
-            </tr>
-        </table>
-    </section>
+    <!-- bagian footer -->
+    <footer></footer>
 </body>
 </html>
